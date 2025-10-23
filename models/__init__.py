@@ -13,3 +13,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Import model modules to register them
+from . import ddpm, ncsnv2, ncsnpp
