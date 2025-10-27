@@ -1,12 +1,5 @@
-ml-collections==0.1.0
-tensorflow-gan==2.0.0
-tensorflow_io
-tensorflow_datasets==3.1.0
-tensorflow==2.19.0
-tensorflow-addons
-tensorboard
-# absl-py==0.10.0
-absl-py==1.0.0
+# Minimal dependencies for likelihood computation
 torch>=1.7.0
-torchvision
-ninja
+numpy
+scipy
+ml-collections==0.1.0
